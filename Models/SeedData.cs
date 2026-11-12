@@ -22,6 +22,7 @@ public static class SeedData
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Genre = "Romantic Comedy",
+                    Rating = "PG-13",
                     Price = 7.99M
                 },
                 new Movie
@@ -29,6 +30,7 @@ public static class SeedData
                     Title = "Ghostbusters ",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
+                    Rating = "PG",
                     Price = 8.99M
                 },
                 new Movie
@@ -36,6 +38,7 @@ public static class SeedData
                     Title = "Ghostbusters 2",
                     ReleaseDate = DateTime.Parse("1986-2-23"),
                     Genre = "Comedy",
+                    Rating = "PG-13",
                     Price = 9.99M
                 },
                 new Movie
@@ -43,6 +46,7 @@ public static class SeedData
                     Title = "Rio Bravo",
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
+                    Rating = "NR",
                     Price = 3.99M
                 },
                 // ---- My favorite movies ----
@@ -51,6 +55,7 @@ public static class SeedData
                     Title = "Interestellar",
                     ReleaseDate = DateTime.Parse("2014-11-7"),
                     Genre = "Science fiction",
+                    Rating = "PG-13",
                     Price = 8.99M
                 },
                 new Movie
@@ -58,6 +63,7 @@ public static class SeedData
                     Title = "The last Samurai",
                     ReleaseDate = DateTime.Parse("2003-12-5"),
                     Genre = "Historical drama",
+                    Rating = "PG-13",
                     Price = 7.99M
                 },
                 new Movie
@@ -65,6 +71,7 @@ public static class SeedData
                     Title = "Gladiator",
                     ReleaseDate = DateTime.Parse("2000-5-5"),
                     Genre = "Historical drama",
+                    Rating = "PG-13",
                     Price = 6.99M
                 }
             );
