@@ -15,6 +15,11 @@
             <option value="">All</option>
         </select>
 
+        <label>From Year:</label>
+        <select asp-for="MinYear" asp-items="Model.Years">
+            <option value="">Any Year</option>
+        </select>
+
         <label>Title: <input type="text" asp-for="SearchString" /></label>
         <input type="submit" value="Filter" />
     </p>

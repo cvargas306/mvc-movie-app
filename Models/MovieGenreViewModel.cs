@@ -8,4 +8,8 @@ public class MovieGenreViewModel
     public SelectList? Genres { get; set; }
     public string? MovieGenre { get; set; }
     public string? SearchString { get; set; }
+
+    // Customization #4: year filter
+    public SelectList? Years { get; set; }
+    public int? MinYear { get; set; }
 }
