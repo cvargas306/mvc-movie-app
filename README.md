@@ -35,7 +35,7 @@ cd mvc-movie-app
 dotnet run --launch-profile https
 ```
 
-Then open **https://localhost:7230/Movies** (or click **Vargas Movies** in the navigation bar).
+Then open **https://localhost:7230**. The movie list is the home page.
 
 The SQLite database is created and seeded automatically on first run. No extra setup is needed.
 
