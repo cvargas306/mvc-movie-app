@@ -33,6 +33,8 @@ body {
 /* Customization #5: more breathing room inside form fields */
 input,
 select,
-textarea {
+textarea,
+.form-control,
+.form-select {
   padding: 0.5rem 0.75rem;
 }
